@@ -8,6 +8,6 @@ def loop_message_n_times(message, number)
 end
 
 def output_array(array)
-  number.times { puts message }
+  array.size.times { |i| puts array[i] }
 end
 
