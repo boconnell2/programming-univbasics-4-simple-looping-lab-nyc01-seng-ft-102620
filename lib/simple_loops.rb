@@ -11,3 +11,7 @@ def output_array(array)
   array.size.times { |i| puts array[i] }
 end
 
+def return_string_array(array)
+  array.size.times { |i| array[i] = array[i].to_s }
+  array
+end
